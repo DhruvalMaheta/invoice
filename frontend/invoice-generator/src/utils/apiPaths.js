@@ -1,4 +1,4 @@
-export const BASE_URL = "";
+export const BASE_URL = "https://invoice-backend-b9mei771q-dhruval-mahetas-projects.vercel.app";
 
 export const  API_PATHS = {
     AUTH : {
@@ -21,4 +21,5 @@ export const  API_PATHS = {
         GENERATE_REMINDER : "/api/ai/generate-reminder",
         GET_DASHBOARD_SUMMARY : "/api/ai/dashboard-summary"
     }
+
 };
