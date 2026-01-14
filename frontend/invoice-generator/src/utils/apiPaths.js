@@ -1,4 +1,4 @@
-export const BASE_URL = "https://invoice-backend-b9mei771q-dhruval-mahetas-projects.vercel.app";
+export const BASE_URL = "https://invoice-backend-rho.vercel.app/";
 
 export const  API_PATHS = {
     AUTH : {
@@ -23,3 +23,4 @@ export const  API_PATHS = {
     }
 
 };
+
