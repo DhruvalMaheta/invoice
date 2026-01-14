@@ -6,7 +6,7 @@ const axiosInstance = axios.create({
     timeout: 80000,
     headers: {
         "Content-Type": "application/json",
-        Accept: "application/json"
+        Accept: "application/json" ,  "Access-Control-Allow-Origin" : ""
     },
 });
 
@@ -41,5 +41,6 @@ axiosInstance.interceptors.response.use(
         return Promise.reject(error);
     }
 );
+
 
 export default axiosInstance;
